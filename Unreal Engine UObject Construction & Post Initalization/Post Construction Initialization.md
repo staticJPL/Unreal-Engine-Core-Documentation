@@ -864,7 +864,8 @@ COREUOBJECT_API class UObject* GetInstancedSubobject(class UObject* SourceSubobj
 
 ```
 
-![[Unreal Engine UObject Construction & Post Initalization/Diagrams/FObjectInstancingGraph.svg]]
+![[Unreal Engine UObject Construction & Post Initalization/Diagrams/FObjectInstancingGraph.svg]](https://github.com/staticJPL/Unreal-Engine-Core-Documentation/blob/c7569c23d36d1ff200fd5d86e41460cea36fb057/Unreal%20Engine%20UObject%20Construction%20%26%20Post%20Initalization/Diagrams/FObjectInstancingGraph.svg)
+
 The diagram describes the engine comments of different `SourceRoot` and `DestinationRoot` pairs. You can now imagine what's going on behind the scenes. For example, when duplicating an `Actor` instance in the editor or dragging an `Actor` into a level, the `FObjectInstancingGraph` is used to reconstruct the structure of that `Actor` and perform a `deep copy` when all the nested sub-objects instantiate themselves. The `FObjectInstancingGraph` is also used inside `PostLoadSubobjects` when objects are loaded from disk. Briefly speaking, during deserialization, the serialized components and their default sub-objects are collected as `SourceRoot` to later generate the `DestinationRoot` value.
 
 ##### InstancePropertyValue
