@@ -16,7 +16,7 @@ Follows the construction and initalization process for UObject.
 - [Recap](https://github.com/staticJPL/Unreal-Engine-Core-Documentation/blob/1a688084cbf9e28b2e7e529ec5eb48b5c619f692/Unreal%20Engine%20UObject%20Construction%20%26%20Post%20Initalization/Intermission%20Review.md)
 - [Serialization](https://github.com/staticJPL/Unreal-Engine-Core-Documentation/blob/1a688084cbf9e28b2e7e529ec5eb48b5c619f692/Unreal%20Engine%20UObject%20Construction%20%26%20Post%20Initalization/Serialization.md)
 - [FProperty](https://github.com/staticJPL/Unreal-Engine-Core-Documentation/blob/1a688084cbf9e28b2e7e529ec5eb48b5c619f692/Unreal%20Engine%20UObject%20Construction%20%26%20Post%20Initalization/FProperty.md)
-- [Post Construction Initalization](https://github.com/staticJPL/Unreal-Engine-Core-Documentation/blob/1a688084cbf9e28b2e7e529ec5eb48b5c619f692/Unreal%20Engine%20UObject%20Construction%20%26%20Post%20Initalization/Post%20Construction%20Initialization.md)
+- [Post Construction Initalization](https://github.com/staticJPL/Unreal-Engine-Core-Documentation/blob/3c71f9c6f7769dd26c298c01d7afd34bbb11c5e6/Unreal%20Engine%20UObject%20Construction%20%26%20Post%20Initalization/Post%20Construction%20Initialization.md)
 - [Final Summary](https://github.com/staticJPL/Unreal-Engine-Core-Documentation/blob/1a688084cbf9e28b2e7e529ec5eb48b5c619f692/Unreal%20Engine%20UObject%20Construction%20%26%20Post%20Initalization/Final%20Summary.md)
 
 ## Article References
