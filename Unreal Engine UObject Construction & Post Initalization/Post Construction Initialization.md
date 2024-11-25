@@ -202,7 +202,7 @@ However, the responsibility for initialization lies with the user to call `Creat
 `CreateDefaultSubobject` can initiate complex nested call chains starting from `UObject::CreateDefaultSubobject` to `FObjectInitializer::CreateDefaultSubobject()`. This nested constructor calling is a common occurrence in the lifecycle of the `AActor` and `Component` system.
 
 As observed previously, `FObjectInitializer` interfaces with `UObject`, which will be further explored later on, particularly how `FObjectInitializer` can override or replace a component.
-![[Unreal Engine UObject Construction & Post Initalization/Diagrams/PostConstructInitSequence.svg]]
+![[Unreal Engine UObject Construction & Post Initalization/Diagrams/PostConstructInitSequence.svg]](https://github.com/staticJPL/Unreal-Engine-Documentation/blob/aadc62c52a4c7622b7d20c50923a1bf385d28739/Unreal%20Engine%20UObject%20Construction%20%26%20Post%20Initalization/Diagrams/PostConstructInitSequence.svg)
 The source of `PostConstructInit` is provided below with comments describing some of the logic. Additionally, this code is summarized at the end in case changes may happen in the future, as learning the logic is more valuable in the long run.
 
 ```cpp
